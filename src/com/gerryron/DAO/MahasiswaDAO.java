@@ -47,7 +47,6 @@ public class MahasiswaDAO {
 		} finally {
 			close(myStmt, myRs);
 		}
-		
 		return list;
 	}
 	
@@ -67,11 +66,11 @@ public class MahasiswaDAO {
 				Mahasiswa mahasiswa = convertRowToMahasiswa(rs);
 				listMahasiswa.add(mahasiswa);
 			}
-			
-			return listMahasiswa;
 		} finally {
 			close(preStat, rs);
 		}
+		
+		return listMahasiswa;
 	}
 	
 	public String searchMahasiswaByNIMResult (String NIM) throws Exception {

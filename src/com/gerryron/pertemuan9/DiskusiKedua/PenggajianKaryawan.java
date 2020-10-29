@@ -83,7 +83,7 @@ public class PenggajianKaryawan {
 		}
 		
 		frmDiskusiKedua = new JFrame();
-		frmDiskusiKedua.setTitle("Diskusi Keempat - Gerryron");
+		frmDiskusiKedua.setTitle("Penggajian Karyawan - Gerryron");
 		frmDiskusiKedua.setBounds(100, 100, 815, 559);
 		frmDiskusiKedua.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

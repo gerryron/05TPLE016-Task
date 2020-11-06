@@ -11,8 +11,8 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import javax.swing.JTextField;
 
-import com.gerryron.DAO.MahasiswaDAO;
-import com.gerryron.Entity.Mahasiswa;
+import com.gerryron.pertemuan8.DAO.MahasiswaDAO;
+import com.gerryron.pertemuan8.Entity.Mahasiswa;
 
 import javax.swing.JComboBox;
 import javax.swing.JButton;

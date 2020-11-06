@@ -2,6 +2,16 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Images"/>
+	<classpathentry kind="src" path="JasperFolder"/>
 	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="lib" path="C:/IT-Asset/liblary/jasperreports-5.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/commons-beanutils-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/groovy-all-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/DEVELOPMENT/lib/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="jcalendar-1.4 .jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

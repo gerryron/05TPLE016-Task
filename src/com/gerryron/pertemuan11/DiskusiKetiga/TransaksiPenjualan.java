@@ -91,7 +91,7 @@ public class TransaksiPenjualan {
 		}
 		
 		frmFormTransaksi = new JFrame();
-		frmFormTransaksi.setTitle("Form Transaksi");
+		frmFormTransaksi.setTitle("Form Transaksi - Gerryron");
 		frmFormTransaksi.setBounds(100, 100, 1048, 687);
 		frmFormTransaksi.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -241,6 +241,7 @@ public class TransaksiPenjualan {
 				showTable();
 				clearForm();
 				updateKeranjang();
+				JOptionPane.showMessageDialog(null, "Success Tambah Barang", "SUCCESS", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
 		btnNewButton_1.setBounds(731, 44, 109, 23);
@@ -254,6 +255,7 @@ public class TransaksiPenjualan {
 				showTable();
 				clearForm();
 				updateKeranjang();
+				JOptionPane.showMessageDialog(null, "Success Hapus Barang", "SUCCESS", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
 		btnNewButton_1_1.setBounds(850, 44, 116, 23);

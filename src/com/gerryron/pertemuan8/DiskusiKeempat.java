@@ -11,10 +11,9 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import javax.swing.SwingConstants;
 
-import com.gerryron.DAO.KaryawanDAO;
-import com.gerryron.Entity.Karyawan;
-import com.gerryron.model.KaryawanTableModel;
-
+import com.gerryron.pertemuan8.DAO.KaryawanDAO;
+import com.gerryron.pertemuan8.Entity.Karyawan;
+import com.gerryron.pertemuan8.Model.KaryawanTableModel;
 
 import javax.swing.JTextField;
 import javax.swing.JComboBox;
